@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="org.opensixen.spain.acct.GlobalFacctModelValidator"
+         point="org.opensixen.osgi.interfaces.IModelValidator">
+      <validator
+            class="org.opensixen.spain.acct.GlobalFacctModelValidator">
+      </validator>
+   </extension>
+
+</plugin>
