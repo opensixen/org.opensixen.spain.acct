@@ -8,5 +8,11 @@
             class="org.opensixen.spain.acct.GlobalFacctModelValidator">
       </validator>
    </extension>
+   <extension
+         point="org.opensixen.osgi.interfaces.IClientSetupValidator">
+      <validator
+            class="org.opensixen.spain.acct.ClientSetupValidator">
+      </validator>
+   </extension>
 
 </plugin>

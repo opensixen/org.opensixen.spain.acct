@@ -1,4 +1,4 @@
-package org.opensixen.rules.spain;
+package org.opensixen.spain.acct;
 
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
