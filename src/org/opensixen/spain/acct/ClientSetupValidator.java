@@ -7,6 +7,7 @@ import java.io.File;
 import java.math.BigDecimal;
 import java.util.Properties;
 
+import org.compiere.model.MAcctSchema;
 import org.compiere.model.MFactAcct;
 import org.compiere.model.MSequence;
 import org.compiere.model.MTax;
@@ -31,6 +32,7 @@ public class ClientSetupValidator implements IClientSetupValidator {
 	private String result;
 	private int AD_Client_ID;
 	private int AD_Org_ID;
+	private MAcctSchema m_as;
 	
 	public String tax()	{
 		// Actualizamos MTaxCategory
@@ -97,19 +99,28 @@ public class ClientSetupValidator implements IClientSetupValidator {
 	 * @see org.opensixen.osgi.interfaces.IClientSetupValidator#doIt(int, int, java.lang.String, java.io.File)
 	 */
 	@Override
-	public boolean doIt(Properties ctx, int AD_Client_ID, int AD_Org_ID, String clientName,	File accountsFile, String trxName) {
+	public boolean doIt(Properties ctx, int AD_Client_ID, int AD_Org_ID, MAcctSchema m_as, String clientName,	File accountsFile, String trxName) {
 		this.ctx = ctx;
 		this.trxName = trxName;
 		this.AD_Client_ID = AD_Client_ID;
 		this.AD_Org_ID = AD_Org_ID;
+		this.m_as = m_as;
 		
 		// 1: Aplicar traducciones a los tipos de documentos
 		
 		// 2: Ajustes a los tipos de IVA
 		result = tax();	
+
 		// 3: Secuencias
 		result = sequences();
+		
+		// Configuramos contabilidad de productos en AS
+		m_as.setIsPostServices(true);
+		m_as.save();
+		
+		
 		return true;
+		
 	}
 	
 	
