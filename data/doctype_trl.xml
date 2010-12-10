@@ -1,0 +1,87 @@
+<doctypeTrl AD_Language="es_ES">
+	<doctype name="GL Journal" name_trl="Asiento GL" print="Journal"
+		print_trl="Asiento" />
+	<doctype name="GL Journal Batch" name_trl="Lote de asientos GL"
+		print="Journal Batch" print_trl="Lote de Asientos" ></doctype>
+	<doctype name="AR Invoice" name_trl="Factura a cliente" print="Invoice"
+		print_trl="Factura" />
+	<doctype name="AR Invoice Indirect" name_trl="Factura a cliente indirecta"
+		print="Invoice" print_trl="Factura" />
+	<doctype name="AR Credit Memo" name_trl="Credit Memo a cliente" print="Credit Memo"
+		print_trl="Credit Memo" />
+	<doctype name="AP Invoice" name_trl="Factura de proveedor" print="Invoice"
+		print_trl="Factura" />
+	<doctype name="AP CreditMemo" name_trl="CreditMemo de proveedor" print="Credit Memo"
+		print_trl="Credit Memo" />
+	<doctype name="Match Invoice" name_trl="Match Invoice" print="Match Invoice"
+		print_trl="Match Invoice" />
+	<doctype name="AR Receipt" name_trl="Cobro de cliente" print="Payment"
+		print_trl="Cobro" />
+	<doctype name="AP Payment" name_trl="Pago a proveedor" print="Payment"
+		print_trl="Pago" />
+	<doctype name="Allocation" name_trl="Allocation" print="Allocation"
+		print_trl="Allocation" />
+	<doctype name="MM Shipment" name_trl="Albaran de cliente" print="Delivery Note"
+		print_trl="Albaran" />
+	<doctype name="MM Shipment Indirect" name_trl="Albaran de cliente indirecto"
+		print="Delivery Note" print_trl="Albaran" />
+	<doctype name="MM Vendor Return" name_trl="Albaran de devolucion a proveedor"
+		print="Vendor Return" print_trl="Devolución a proveedor" />
+	<doctype name="MM Receipt" name_trl="Albaran de proveedor" print="Vendor Delivery"
+		print_trl="Albaran de proveedor" />
+	<doctype name="MM Customer Return" name_trl="Albaran de devolucion de cliente"
+		print="Customer Return" print_trl="Devolución de cliente" />
+	<doctype name="Purchase Order" name_trl="Pedido de Compras" print="Purchase Order"
+		print_trl="Pedido de Compras" />
+	<doctype name="Match PO" name_trl="Match PO" print="Match PO"
+		print_trl="Match PO" />
+	<doctype name="Purchase Requisition" name_trl="Purchase Requisition"
+		print="Requisition" print_trl="Requisition" />
+	<doctype name="Vendor Return Material" name_trl="RMA de proveedor"
+		print="Vendor Return Material Authorization" print_trl="RMA de proveedor" />
+	<doctype name="Bank Statement" name_trl="Bank Statement" print="Bank Statement"
+		print_trl="Bank Statement" />
+	<doctype name="Cash Journal" name_trl="Cash Journal" print="Cash Journal"
+		print_trl="Cash Journal" />
+	<doctype name="Material Movement" name_trl="Movimiento de inventario"
+		print="Inventory Move" print_trl="Movimiento de inventario" />
+	<doctype name="Physical Inventory" name_trl="Inventario Fisico"
+		print="Phys.Inventory" print_trl="Inventario Fisico" />
+	<doctype name="Material Production" name_trl="Material Production"
+		print="Production" print_trl="Production" />
+	<doctype name="Project Issue" name_trl="Project Issue" print="Project Issue"
+		print_trl="Project Issue" />
+	<doctype name="Binding offer" name_trl="Factura Proforma" print="Quotation"
+		print_trl="Proforma" />
+	<doctype name="Non binding offer" name_trl="Presupuesto"
+		print="Proposal" print_trl="Presupuesto" />
+	<doctype name="Prepay Order" name_trl="Pedido Prepago" print="Prepay Order"
+		print_trl="Pedido" />
+	<doctype name="Customer Return Material" name_trl="RMA de cliente"
+		print="Customer Return Material Authorization" print_trl="RMA de cliente" />
+	<doctype name="Standard Order" name_trl="Pedido Standard" print="Order Confirmation"
+		print_trl="Pedido" />
+	<doctype name="Credit Order" name_trl="Pedido a Credito" print="Order Confirmation"
+		print_trl="Pedido" />
+	<doctype name="Warehouse Order" name_trl="Pedido de Almacen"
+		print="Order Confirmation" print_trl="Pedido" />
+	<doctype name="Manufacturing Order" name_trl="Manufacturing Order"
+		print="Manufacturing Order" print_trl="Manufacturing Order" />
+	<doctype name="Manufacturing Cost Collector" name_trl="Manufacturing Cost Collector"
+		print="Cost Collector" print_trl="Cost Collector" />
+	<doctype name="Maintenance Order" name_trl="Maintenance Order"
+		print="Maintenance Order" print_trl="Maintenance Order" />
+	<doctype name="Quality Order" name_trl="Quality Order" print="Quality Order"
+		print_trl="Quality Order" />
+	<doctype name="Distribution Order" name_trl="Distribution Order"
+		print="Distribution Order" print_trl="Distribution Order" />
+	<doctype name="Payroll" name_trl="Payroll" print="Payroll"
+		print_trl="Payroll" />
+	<doctype name="POS Order" name_trl="Pedido TPV" print="Order Confirmation"
+		print_trl="Pedido" />
+	<doctype name="GL Document" name_trl="GL Document" print="GL Document"
+		print_trl="GL Document" />
+	<doctype name="AR Pro Forma Invoice" name_trl="AR Pro Forma Invoice"
+		print="AR Pro Forma Invoice" print_trl="AR Pro Forma Invoice" />
+
+</doctypeTrl>

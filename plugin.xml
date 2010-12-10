@@ -14,5 +14,21 @@
             class="org.opensixen.spain.acct.ClientSetupValidator">
       </validator>
    </extension>
+   <extension
+         id="org.opensixen.spain.acct.AllocationModelValidator"
+         point="org.opensixen.osgi.interfaces.IModelValidator">
+      <validator
+            class="org.opensixen.spain.acct.AllocationModelValidator">
+      </validator>
+   </extension>
+   <extension
+         id="org.opensixen.spain.acct.ClientSetupValidator"
+         name="clientSetup"
+         point="org.opensixen.osgi.interfaces.ICommand">
+      <command
+            class="org.opensixen.spain.acct.ClientSetupValidator"
+            name="clientSetup">
+      </command>
+   </extension>
 
 </plugin>
