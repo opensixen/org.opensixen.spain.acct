@@ -127,7 +127,8 @@ public class ClientSetupValidator implements IClientSetupValidator, ICommand {
 
 	
 	public void translateDocType() {
-		String AD_Language = Env.getAD_Language(Env.getCtx());
+		//String AD_Language = Env.getAD_Language(Env.getCtx());
+		String AD_Language = "es_ES";
 		docTypeTrl = getTrl(AD_Language);
 		
 		String sql = "update c_doctype_trl set name=?, printname=? where c_doctype_id=? and AD_Language=?";
